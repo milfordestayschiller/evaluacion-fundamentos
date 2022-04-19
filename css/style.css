@@ -1,0 +1,130 @@
+body {
+    background-image: url('https://media.istockphoto.com/photos/valdivia-picture-id500121305?k=20&m=500121305&s=612x612&w=0&h=E24B3xWuq3g3Ngyx4LQuk0tLvCoJ5-ilY_-NF4t3-Bg=');
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;  
+}
+
+
+.valdivia {
+    text-align: center;
+    color: black !important;
+    padding: 30px 0px !important; 
+}
+
+.historia {
+    margin: 0 30px !important;
+    color: black !important;
+}
+
+.imagenes > div{
+    vertical-align: top;
+    display: inline-block;
+    padding: 0px 10px;
+  }
+
+  #img1 {
+    
+     height: 10% !important;
+  }
+
+  #img2 {
+      height: 50% ;
+  }
+
+  .bg-success {
+      background: brown !important;
+  }
+
+  .active {
+      color: white !important
+  }
+
+  .active2 {
+      color: white !important;
+  }
+
+  .logo {
+      max-width: 3% !important;
+      width: 10% !important;
+  }
+
+  .form-horizontal{
+    display:block;
+    width:50%;
+    margin:0 auto;
+}
+
+.card {
+    margin: 0 auto !important;
+}
+
+.noticias {
+    background: rgb(222, 8, 8);
+    color: white !important;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.contacto {
+    background: rgb(222, 8, 8);
+    color: white !important;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.direcciones {
+    background-color: black !important;
+    color: white !important;
+    padding: 40px 0px;
+    text-align: center;
+   
+   
+}
+
+h2 {
+    font-size: 130%;
+}
+
+h3 {
+    font-size: 100%;
+}
+
+.footer {
+    background-color: black;
+    padding: 40px 0px;;
+}
+
+@media (min-width: 400px) and (max-width: 760px) {
+.form-row {
+    text-align: center!important;
+
+}
+.form-control {
+      width: 90% !important;  
+      left: 25px !important;
+      position: relative;
+}
+
+}
+
+.iframe {
+    text-align: center;
+}
+
+@media (min-width: 300px) and (max-width: 769px) {
+    .logo {
+        max-width: 100%!important;
+    }
+    
+    }
+
+    @media (min-width: 768px) and (max-width: 1000px) {
+        .logo {
+            max-width: 90%!important;
+        }
+        
+        }
+
